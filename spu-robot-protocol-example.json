@@ -1,0 +1,10 @@
+{
+  "name": "control_robot",
+  "time": 1644209099,
+  "spu-robot-0": {
+    "move": 1
+  },
+  "spu-robot-1": {
+    "move": 0
+  }
+}

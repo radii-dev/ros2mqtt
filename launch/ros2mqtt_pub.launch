@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="ros2mqtt" type="ros2mqtt_pub" name="ros2mqtt_pub" output="screen" />
+</launch>
