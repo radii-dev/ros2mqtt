@@ -120,6 +120,7 @@ include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
   ${JSONCPP_INCLUDE_DIRS}
+  "/usr/local/lib"
 )
 
 ## Declare a C++ library

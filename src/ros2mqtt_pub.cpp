@@ -13,7 +13,8 @@
 using namespace std;
 
 // for publish data with MQTT
-const string DFLT_SERVER_ADDRESS	{ "tcp://192.168.1.242:1883" };
+//const string DFLT_SERVER_ADDRESS	{ "tcp://192.168.1.127:1883" };
+const string DFLT_SERVER_ADDRESS { "tcp://localhost" };
 const string TOPIC { "odom" };
 const int  QOS = 1;
 const auto TIMEOUT = std::chrono::seconds(10);

@@ -9,13 +9,14 @@
 #include <chrono>
 #include <cstring>
 #include "mqtt/async_client.h"
-#include "json/json.h"
+#include "jsoncpp/json/json.h"
 
 using namespace std;
 
 const string ROBOT_ID { "spu-robot-0" };
 
-const string DFLT_SERVER_ADDRESS { "tcp://192.168.1.242:1883" };
+//const string DFLT_SERVER_ADDRESS { "tcp://192.168.1.127:1883" };
+const string DFLT_SERVER_ADDRESS { "tcp://localhost" };
 const string CLIENT_ID { "spu-robot-0" };
 const string TOPIC { "cmd_vel" };
 const int QOS = 1;
